@@ -38,5 +38,4 @@ def turn(board)
     loop do
       turn(board)
     end
-  end
 end
