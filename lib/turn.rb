@@ -32,4 +32,10 @@ def turn(board)
   input = gets.strip
   input_to_index(input)
   valid_move(board, index)
+  if true
+    move(board, index, value = "X")
+  else
+    loop do
+      turn(board)
+    end
 end
