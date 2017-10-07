@@ -30,13 +30,4 @@ end
 def turn(board)
   Please enter 1-9:
   input = gets.strip
-  valid_move?(board, index)
-  if true
-    move(board, index, value = "X")
-  else nil
-    loop do
-      turn(board)
-      break
-    end
-  end
 end
